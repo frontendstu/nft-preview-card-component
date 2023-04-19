@@ -33,10 +33,10 @@ $ff-pri: 'Outfit', sans-serif;
 $ff-sec: null;
 
 // ----- Copy
-$copy-clr: null;
+$copy-clr: $clr-neutral-400;
 $copy-leading: null;
-$copy-fw: null;
-$copy-fs: null;
+$copy-fw: $fw-light;
+$copy-fs: $fs-200;
 $copy-ff: $ff-pri;
 
 $copy-font: $copy-fw $copy-fs $copy-ff;
