@@ -21,17 +21,9 @@ $clr-neutral-900: hsl(217, 54%, 11%);
 $clr-primary-500: hsl(178, 100%, 50%);
 
 // ---------- TYPOGRAPHY
-
-// Remove any font weights that are not in use
-$fw-thin: 100;
-$fw-extralight: 200;
 $fw-light: 300;
 $fw-regular: 400;
-$fw-medium: 500;
 $fw-semibold: 600;
-$fw-bold: 700;
-$fw-extrabold: 800;
-$fw-black: 900;
 
 // Remove any font families that are not in use. You will need to keep
 // $ff-pri or else you will run into errors.
