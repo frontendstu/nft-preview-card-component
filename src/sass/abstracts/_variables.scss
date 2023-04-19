@@ -25,6 +25,10 @@ $fw-light: 300;
 $fw-regular: 400;
 $fw-semibold: 600;
 
+$fs-100: func.getRem(16);
+$fs-200: func.getRem(18);
+$fs-300: func.getRem(22);
+
 $ff-pri: 'Outfit', sans-serif;
 $ff-sec: null;
 
