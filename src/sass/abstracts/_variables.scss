@@ -72,6 +72,10 @@ $nft-img-radius: 8px;
 $nft-img-overlay-trans: $link-trans;
 $nft-img-overlay-bg: hsla(178, 100%, 50%, 0.5);
 
+// --- NFT Content
+$nft-title-marg-top: func.getRem(24);
+$nft-title-fs: $fs-300;
+
 // ---------- LAYOUT
 
 // ----- Wrapper

@@ -38,4 +38,12 @@
       }
     }
   }
+
+  // NFT Content
+  &__content {
+    .title {
+      margin-top: var.$nft-title-marg-top;
+      font-size: var.$nft-title-fs;
+    }
+  }
 }
