@@ -25,9 +25,7 @@ $fw-light: 300;
 $fw-regular: 400;
 $fw-semibold: 600;
 
-// Remove any font families that are not in use. You will need to keep
-// $ff-pri or else you will run into errors.
-$ff-pri: null;
+$ff-pri: 'Outfit', sans-serif;
 $ff-sec: null;
 
 // ----- Copy
