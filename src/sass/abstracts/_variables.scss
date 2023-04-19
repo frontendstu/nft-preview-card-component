@@ -50,9 +50,9 @@ $title-sec-ff: null;
 
 // ---------- LINKS
 $link-trans: 150ms ease-in-out;
-$link-trans-prop: null;
-$link-clr: null;
-$link-clr-active: null;
+$link-trans-prop: color opacity;
+$link-clr: $clr-neutral-100;
+$link-clr-active: $clr-primary-500;
 $link-decoration: none;
 $link-decoration-active: none;
 
