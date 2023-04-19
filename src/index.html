@@ -19,17 +19,19 @@
   <body>
     <main>
       <article class="nft-component wrapper">
-        <div class="nft-image">
+        <div class="nft-component__img">
           <img
             src="assets/images/image-equilibrium.jpg"
             alt="An image of the equilibrium NFT #3429"
           />
         </div>
 
-        <h1 class="title">Equilibrium #3429</h1>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="nft-component__content">
+          <h1 class="title">Equilibrium #3429</h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+        </div>
 
-        <ul>
+        <ul class="nft-component__details">
           <li>
             <img
               src="assets/images/icon-ethereum.svg"
@@ -49,12 +51,14 @@
 
         <hr />
 
-        <img
-          src="assets/images/image-avatar.png"
-          alt="Avatar image of Jules Wyvern"
-        />
+        <div class="nft-component__author">
+          <img
+            src="assets/images/image-avatar.png"
+            alt="Avatar image of Jules Wyvern"
+          />
 
-        Creation of <a href="#">Jules Wyvern</a>
+          Creation of <a href="#">Jules Wyvern</a>
+        </div>
       </article>
     </main>
 
