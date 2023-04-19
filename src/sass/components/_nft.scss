@@ -1,2 +1,8 @@
 @use '../abstracts/mixins' as mixin;
 @use '../abstracts/variables' as var;
+
+.nft-component {
+  padding: var.$nft-padd;
+  border-radius: var.$nft-radius;
+  background-color: var.$nft-bg;
+}

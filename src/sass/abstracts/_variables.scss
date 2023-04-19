@@ -59,6 +59,13 @@ $link-decoration-active: none;
 // ---------- GLOBALS
 $body-bg: $clr-neutral-900;
 
+// ---------- COMPONENTS
+
+// ----- NFT
+$nft-padd: func.getRem(24);
+$nft-radius: 15px;
+$nft-bg: $clr-neutral-800;
+
 // ---------- LAYOUT
 
 // ----- Wrapper
