@@ -41,6 +41,11 @@
 
   // NFT Content
   &__content {
+    p {
+      margin-top: var.$nft-content-marg-top;
+      line-height: var.$nft-content-leading;
+    }
+
     .title {
       margin-top: var.$nft-title-marg-top;
       font-size: var.$nft-title-fs;
