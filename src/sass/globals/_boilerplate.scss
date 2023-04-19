@@ -2,6 +2,7 @@
 @use '../abstracts/variables' as var;
 
 body {
+  background-color: var.$body-bg;
   color: var.$copy-clr;
   line-height: var.$copy-leading;
   font: var.$copy-font;
