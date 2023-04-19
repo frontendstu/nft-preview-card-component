@@ -66,6 +66,12 @@ $nft-padd: func.getRem(24);
 $nft-radius: 15px;
 $nft-bg: $clr-neutral-800;
 
+// --- NFT Featured Image
+$nft-img-radius: 8px;
+
+$nft-img-overlay-trans: $link-trans;
+$nft-img-overlay-bg: hsla(178, 100%, 50%, 0.5);
+
 // ---------- LAYOUT
 
 // ----- Wrapper

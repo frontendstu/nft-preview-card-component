@@ -5,4 +5,37 @@
   padding: var.$nft-padd;
   border-radius: var.$nft-radius;
   background-color: var.$nft-bg;
+
+  // NFT Featured Image
+  &__img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: var.$nft-img-radius;
+    overflow: hidden;
+
+    // NFT Featured Image Hover Overlay
+    &-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var.$nft-img-overlay-bg;
+      opacity: 0;
+      transition: var.$nft-img-overlay-trans;
+
+      &::before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        content: url('../assets/images/icon-view.svg');
+      }
+
+      @include mixin.hover-focus-within {
+        opacity: 1;
+      }
+    }
+  }
 }
