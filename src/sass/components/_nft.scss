@@ -71,4 +71,20 @@
       display: inline-block;
     }
   }
+
+  // NFT Author
+  &__author {
+    @include mixin.flex;
+
+    justify-content: flex-start;
+    font-size: var.$nft-author-fs;
+
+    img {
+      width: var.$nft-author-img-width;
+      height: var.$nft-author-img-height;
+      margin-right: var.$nft-author-img-marg-right;
+      border-radius: var.$nft-author-img-radius;
+      border: var.$nft-author-img-border;
+    }
+  }
 }
