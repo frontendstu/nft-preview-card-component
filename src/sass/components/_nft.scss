@@ -51,4 +51,24 @@
       font-size: var.$nft-title-fs;
     }
   }
+
+  // NFT Details
+  &__details {
+    margin-top: var.$nft-content-marg-top;
+
+    ul {
+      display: inline-block;
+    }
+
+    li {
+      &:last-child {
+        float: right;
+      }
+    }
+
+    li,
+    img {
+      display: inline-block;
+    }
+  }
 }
