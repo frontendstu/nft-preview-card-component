@@ -31,3 +31,9 @@ a {
   font-weight: var.$title-sec-fw;
   font-family: var.$title-sec-ff;
 }
+
+hr {
+  margin-block: var.$hr-marg-block;
+  border: 0;
+  border-top: var.$hr-border;
+}

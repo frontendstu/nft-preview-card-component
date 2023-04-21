@@ -58,6 +58,8 @@ $link-decoration-active: none;
 
 // ---------- GLOBALS
 $body-bg: $clr-neutral-900;
+$hr-marg-block: func.getRem(16);
+$hr-border: 1px solid $clr-neutral-700;
 
 // ---------- COMPONENTS
 
