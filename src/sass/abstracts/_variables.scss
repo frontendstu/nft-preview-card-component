@@ -84,6 +84,14 @@ $nft-title-fs: $fs-300;
 // --- NFT Details
 $nft-details-marg-top: func.getRem(16);
 
+// --- NFT Author
+$nft-author-fs: $fs-100;
+$nft-author-img-width: func.getRem(33);
+$nft-author-img-height: $nft-author-img-width;
+$nft-author-img-marg-right: func.getRem(16);
+$nft-author-img-radius: 33vw;
+$nft-author-img-border: 1px solid $clr-neutral-100;
+
 // ---------- LAYOUT
 
 // ----- Wrapper
