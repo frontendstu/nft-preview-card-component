@@ -11,6 +11,12 @@
       margin-top: var(--nft-card-item-heading-margin-top);
     }
 
+    &-img {
+      img {
+        border-radius: var(--nft-card-item-img-radius);
+      }
+    }
+
     &-content {
       p {
         margin-top: var(--nft-card-content-margin-top);
