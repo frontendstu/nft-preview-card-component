@@ -19,10 +19,6 @@
       height: auto;
       position: relative;
 
-      @include abstract.hover-focus {
-        opacity: 1;
-      }
-
       &-overlay {
         @include abstract.flex;
 
