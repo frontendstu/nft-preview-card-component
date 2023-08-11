@@ -1,0 +1,15 @@
+@use '../abstracts' as abstract;
+
+.attribution {
+  font-size: var(--attribution-fs);
+  margin-top: var(--attribution-margin-top);
+  text-align: center;
+
+  a {
+    color: var(--attribution-color-link);
+
+    @include abstract.hover-focus-within {
+      color: var(--attribution-color-link-active);
+    }
+  }
+}
