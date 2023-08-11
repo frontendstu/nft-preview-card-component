@@ -46,6 +46,10 @@
       flex-direction: row;
       justify-content: space-between;
 
+      img {
+        margin-right: var(--nft-card-pricing-icon-margin-right);
+      }
+
       span {
         @include abstract.flex;
       }
