@@ -19,7 +19,7 @@
       height: auto;
       position: relative;
 
-      &:hover {
+      @include abstract.hover-focus {
         opacity: 1;
       }
 
