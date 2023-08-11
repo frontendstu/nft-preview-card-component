@@ -46,6 +46,11 @@
       flex-direction: row;
       justify-content: space-between;
 
+      strong {
+        font-weight: var(--nft-card-pricing-fw);
+        color: var(--nft-card-pricing-color);
+      }
+
       img {
         margin-right: var(--nft-card-pricing-icon-margin-right);
       }
