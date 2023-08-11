@@ -41,4 +41,9 @@
   @media (min-width: 48em) {
     --wrapper-max-width: 21.875rem;
   }
+
+  // NFT Card
+  --nft-card-bg: hsl(var(--color-neutral-800));
+  --nft-card-radius: 15px;
+  --nft-card-padding: 1.5rem;
 }
