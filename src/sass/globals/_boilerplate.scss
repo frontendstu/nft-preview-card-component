@@ -5,6 +5,8 @@ body {
   line-height: var(--leading-primary);
   color: var(--color-copy);
   background-color: var(--color-body-bg);
+  display: grid;
+  place-content: center;
 }
 
 hr {
