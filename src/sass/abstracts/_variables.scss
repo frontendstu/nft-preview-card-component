@@ -1,2 +1,14 @@
 :root {
+  // Colours
+  --color-neutral-100: 0, 0%, 100%;
+  --color-neutral-400: 215, 51%, 70%;
+  --color-neutral-600: 216, 32%, 27%;
+  --color-neutral-800: 216, 51%, 16%;
+  --color-neutral-900: 217, 54%, 11%;
+  --color-accent: 178, 100%, 50%;
+
+  --color-body-bg: hsl(var(--color-neutral-900));
+  --color-heading: hsl(var(--color-neutral-100));
+  --color-copy: hsl(var(--color-neutral-400));
+  --color-link: hsl(var(--color-neutral-100));
 }
