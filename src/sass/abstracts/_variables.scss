@@ -11,7 +11,7 @@
   --color-heading: hsl(var(--color-neutral-100));
   --color-copy: hsl(var(--color-neutral-400));
   --color-link: hsl(var(--color-neutral-100));
-  --color-link-active: var(--color-link);
+  --color-link-active: hsl(var(--color-accent));
   --color-hr: hsl(var(--color-neutral-600));
 
   // Typography
