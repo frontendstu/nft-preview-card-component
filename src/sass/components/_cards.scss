@@ -10,5 +10,11 @@
       font-size: var(--nft-card-item-heading-fs);
       margin-top: var(--nft-card-item-heading-margin-top);
     }
+
+    &-content {
+      p {
+        margin-top: var(--nft-card-content-margin-top);
+      }
+    }
   }
 }
