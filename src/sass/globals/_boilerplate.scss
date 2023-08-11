@@ -15,6 +15,7 @@ hr {
 a {
   text-decoration: var(--link-text-decoration);
   color: var(--color-link);
+  transition: var(--link-transition);
 
   @include abstract.hover {
     text-decoration: var(--link-text-decoration-active);
