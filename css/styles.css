@@ -45,6 +45,10 @@
   --nft-card-author-img-radius: 999px;
   --nft-card-author-img-margin-right: 1rem;
   --nft-card-author-img-size: 2.0625rem;
+  --attribution-fs: 0.875rem;
+  --attribution-margin-top: 1rem;
+  --attribution-color-link: var(--color-copy);
+  --attribution-color-link-active: var(--color-link-active);
 }
 @media (min-width: 48em) {
   :root {
@@ -200,4 +204,16 @@ a:hover {
 .wrapper {
   margin-inline: auto;
   max-width: var(--wrapper-max-width);
+}
+
+.attribution {
+  font-size: var(--attribution-fs);
+  margin-top: var(--attribution-margin-top);
+  text-align: center;
+}
+.attribution a {
+  color: var(--attribution-color-link);
+}
+.attribution a:hover, .attribution a:focus-within {
+  color: var(--attribution-color-link-active);
 }
