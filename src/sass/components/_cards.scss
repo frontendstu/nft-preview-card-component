@@ -55,4 +55,17 @@
       }
     }
   }
+
+  &__author {
+    font-size: var(--nft-card-author-fs);
+    display: flex;
+    align-items: center;
+
+    img {
+      border: var(--nft-card-author-img-border);
+      border-radius: var(--nft-card-author-img-radius);
+      margin-right: var(--nft-card-author-img-margin-right);
+      width: var(--nft-card-author-img-size);
+    }
+  }
 }
