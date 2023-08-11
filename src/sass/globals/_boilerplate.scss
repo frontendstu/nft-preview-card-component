@@ -21,3 +21,9 @@ a {
     color: var(--color-link-active);
   }
 }
+
+.heading {
+  font-weight: var(--fw-heading);
+  font-family: var(--ff-heading);
+  color: var(--color-heading);
+}
