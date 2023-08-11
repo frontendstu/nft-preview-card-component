@@ -24,4 +24,10 @@
 
   --fw-heading: var(--fw-semibold);
   --fs-heading: var(--fs-400);
+
+  // Links
+  --link-text-decoration: none;
+  --link-text-decoration-active: underline;
+  --link-color: var(--color-link);
+  --link-transition: 150ms ease-in-out all;
 }
