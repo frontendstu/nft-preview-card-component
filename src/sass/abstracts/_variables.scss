@@ -11,4 +11,17 @@
   --color-heading: hsl(var(--color-neutral-100));
   --color-copy: hsl(var(--color-neutral-400));
   --color-link: hsl(var(--color-neutral-100));
+
+  // Typography
+  --fw-light: 300;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fs-100: 1rem;
+  --fs-200: 1.125rem;
+  --fs-400: 1.375rem;
+  --ff-primary: 'Outfit', sans-serif;
+  --leading-primary: 26px;
+
+  --fw-heading: var(--fw-semibold);
+  --fs-heading: var(--fs-400);
 }
