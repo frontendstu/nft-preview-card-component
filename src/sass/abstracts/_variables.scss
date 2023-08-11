@@ -34,4 +34,11 @@
   // Links
   --link-text-decoration: none;
   --link-transition: 150ms ease-in-out all;
+
+  // Wrapper
+  --wrapper-max-width: 20.4375rem;
+
+  @media (min-width: 48em) {
+    --wrapper-max-width: 21.875rem;
+  }
 }
