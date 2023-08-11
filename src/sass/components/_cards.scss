@@ -12,8 +12,32 @@
     }
 
     &-img {
-      img {
-        border-radius: var(--nft-card-item-img-radius);
+      border-radius: var(--nft-card-item-img-radius);
+      overflow: hidden;
+      display: block;
+      width: 100%;
+      height: auto;
+      position: relative;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &-overlay {
+        @include abstract.flex;
+
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: var(--link-transition);
+        background-color: var(--nft-card-item-img-bg-active);
+
+        @include abstract.hover-focus {
+          opacity: 1;
+        }
       }
     }
 
