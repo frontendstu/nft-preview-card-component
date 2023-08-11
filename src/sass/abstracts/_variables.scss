@@ -64,4 +64,11 @@
   // NFT Card Pricing
   --nft-card-pricing-margin-top: 1rem;
   --nft-card-pricing-icon-margin-right: 0.375rem;
+
+  // NFT Card Author
+  --nft-card-author-fs: var(--fs-100);
+  --nft-card-author-img-border: 1px solid hsl(var(--color-neutral-100));
+  --nft-card-author-img-radius: 999px;
+  --nft-card-author-img-margin-right: 1rem;
+  --nft-card-author-img-size: 2.0625rem;
 }
