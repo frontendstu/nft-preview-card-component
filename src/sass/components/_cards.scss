@@ -16,5 +16,16 @@
         margin-top: var(--nft-card-content-margin-top);
       }
     }
+
+    &-pricing {
+      margin-top: var(--nft-card-pricing-margin-top);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      span {
+        @include abstract.flex;
+      }
+    }
   }
 }
