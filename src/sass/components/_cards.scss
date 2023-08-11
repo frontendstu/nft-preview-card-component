@@ -4,4 +4,11 @@
   background-color: var(--nft-card-bg);
   border-radius: var(--nft-card-radius);
   padding: var(--nft-card-padding);
+
+  &__item {
+    .heading {
+      font-size: var(--nft-card-item-heading-fs);
+      margin-top: var(--nft-card-item-heading-margin-top);
+    }
+  }
 }
